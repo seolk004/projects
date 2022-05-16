@@ -23,13 +23,12 @@
             <span class="icon-bar"></span>
         </button>
         <!-- 상단 바에 제목이 나타나고 클릭하면 main 페이지로 이동한다 -->
-        <a class="navbar-brand" href="main.jsp">JSP 게시판 웹 사이트</a>
+        <a class="navbar-brand" href="login.jsp">Raspberry pi for NAS</a>
     </div>
     <!-- 게시판 제목 이름 옆에 나타나는 메뉴 영역 -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-            <li><a href="main.jsp">메인</a></li>
-            <li><a href="bbs.jsp">게시판</a></li>
+
         </ul>
         <!-- 헤더 우측에 나타나는 드랍다운 영역 -->
         <ul class="nav navbar-nav navbar-right">
@@ -52,7 +51,7 @@
         <!-- 점보트론은 특정 컨텐츠, 정보를 두드러지게 하기 위한 큰 박스 -->
         <div class="jumbotron" style="padding-top: 20px;">
             <form method="post" action="loginAction.jsp">
-                <h3 style="text-align: center;">로그인 화면</h3>
+                <h3 style="text-align: center;">로그인</h3>
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="아이디" name="userID" maxlength="20">
                 </div>
