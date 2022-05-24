@@ -37,9 +37,10 @@
       <artifactId>mysql-connector-java</artifactId>
       <version>8.0.29</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/com.oreilly.servlet/com.springsource.com.oreilly.servlet -->
+    <!-- https://mvnrepository.com/artifact/com.oreilly.servlet/com.springsource.com.oreilly.servlet -->
 
   </dependencies>
-
   <build>
     <finalName>BBS</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
