@@ -16,7 +16,7 @@
     <title>JSP 게시판 웹 사이트</title>
 </head>
 <body>
-<%
+
 <%
     // 현재 세션 상태를 체크한다
     String userID = null;
@@ -53,7 +53,7 @@
             PrintWriter script = response.getWriter();
             script.println("<script>");
             script.println("alert('회원가입 성공')");
-            script.println("location.href='login.jsp'");
+            script.println("location.href='main.jsp'");
             script.println("</script>");
         }
     }
